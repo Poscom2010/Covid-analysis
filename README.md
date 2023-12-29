@@ -59,4 +59,4 @@ To add some interesting codes used during the analysis and add some code chunks
 ## References
 
 ### Definition of terms
-Stringency Index
+Stringency Index  a composite measure  based on nine repsones indcators
