@@ -47,4 +47,16 @@ EDA means exploring the dataset or conducting a deep dive into the data, ton und
    7. How bad was Africa as a whole in terms of new cases, vaccination and death rate - a graphical view would assist  
    9. What was the likelihood or chances of dying in AFrica after being infected bt COVID 19
 
-##
+## Data Analysis
+To add some interesting codes used during the analysis and add some code chunks
+
+## Results/ Findngs
+
+## Recommendations
+
+## Limitations
+
+## References
+
+### Definition of terms
+Stringency Index
