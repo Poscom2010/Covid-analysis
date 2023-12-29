@@ -23,3 +23,6 @@ The dataset had lots of intention blank spaces. As in, for instance, the new cas
 
 3. ### Data cleaning and Formating
 After importing the data, all the data types were checked and confirmed to be in the required data type.There after, Data Manipulation began - where other erequired important colums were required in order to fully satisfy the business task.
+
+# Exploratory Data Analysis (EDA)
+EDA means exploring the dataset or conducting a deep dive into the data, ton understand the data structure, characteristics of the data and identify issues that might need to be corrected. Above all, EDA assists in understanding the quirks and innuendos of the data.
