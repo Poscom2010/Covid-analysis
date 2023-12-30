@@ -28,8 +28,10 @@ After importing the data, all the data types were checked and confirmed to be in
  Describing the data and examine the data types 
 DESCRIBE covid19_africar
 ```
+```
 Changing the location column name from 'ï»¿location' to proper location
-
+ALTER TABLE covid_africar
+CHANGE COLUMN `ï»¿location`  `location` VARCHAR (50);
 ```
 
 # Exploratory Data Analysis (EDA)
