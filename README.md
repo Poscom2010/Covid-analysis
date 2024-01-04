@@ -74,7 +74,7 @@ ROUND(SUM(new_deaths)/SUM(new_cases)*100,2) AS death_rate
 FROM covid_africar;
 ```
 
--- Average stringency index for all countries orderd by year and respective month for plotting
+### Average stringency index for all countries orderd by year and respective month for plotting
 ```
 SELECT 
     YEAR(date) AS year,
@@ -87,6 +87,21 @@ GROUP BY YEAR(date),
 ORDER BY YEAR(date),
 			MONTH(date);
 ```
+### Global numbers for Africa - total vaccinations and deaths by by year and month
+```
+---  Rolling number for Africa vaccinations
+      SELECT 
+    YEAR(date) AS year,
+    MONTH(date) AS month,
+    MAX(total_vaccinations) total_vaccinated,
+    SUM(new_deaths)
+FROM
+    covid_africar
+GROUP BY YEAR(date), 
+		MONTH(date)
+ORDER BY YEAR(date),
+			MONTH(date);
+``
 
 ## Results/ Findngs
 
