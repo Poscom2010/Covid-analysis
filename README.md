@@ -63,6 +63,31 @@ EDA means exploring the dataset or conducting a deep dive into the data, ton und
 ## Data Analysis
 To add some interesting codes used during the analysis and add some code chunks
 
+```
+-- extracting global numbers from the dataset
+SELECT
+SUM(DISTINCT population) total_population,
+SUM(new_cases) total_infections,
+SUM(new_deaths) total_deaths,
+ROUND(SUM(new_cases)/ SUM(DISTINCT population)*100,2) AS infection_rate,
+ROUND(SUM(new_deaths)/SUM(new_cases)*100,2) AS death_rate
+FROM covid_africar;
+```
+
+-- Average stringency index for all countries orderd by year and respective month for plotting
+```
+SELECT 
+    YEAR(date) AS year,
+    MONTH(date) AS month,
+    AVG(stringency_index) AS avg_stringency_index
+FROM
+    covid_africar
+GROUP BY YEAR(date), 
+		MONTH(date)
+ORDER BY YEAR(date),
+			MONTH(date);
+```
+
 ## Results/ Findngs
 
 ## Recommendations
