@@ -101,7 +101,7 @@ GROUP BY YEAR(date),
 		MONTH(date)
 ORDER BY YEAR(date),
 			MONTH(date);
-``
+```
 ### Checking if Africans accepted COVID 19 vaccinations and the level of protection
 ```
 SELECT
@@ -115,7 +115,7 @@ SELECT
     FROM covid_africar
     GROUP BY location
     ) AS country_totals;
-``
+```
 
 ## Results/ Findngs
 
