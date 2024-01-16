@@ -102,6 +102,20 @@ GROUP BY YEAR(date),
 ORDER BY YEAR(date),
 			MONTH(date);
 ``
+### Checking if Africans accepted COVID 19 vaccinations and the level of protection
+```
+SELECT
+    SUM(max_people_vaccinated) africal_total_vacc,
+    SUM(max_fully_vaccinated)afriaca_total_fully_vac,
+     ROUND(SUM(max_fully_vaccinated)/ SUM(max_people_vaccinated)* 100,2) AS full_protection_rate
+    FROM
+    (SELECT
+     MAX(people_vaccinated) max_people_vaccinated,
+    MAX(people_fully_vaccinated) max_fully_vaccinated
+    FROM covid_africar
+    GROUP BY location
+    ) AS country_totals;
+``
 
 ## Results/ Findngs
 
