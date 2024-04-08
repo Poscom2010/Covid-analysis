@@ -41,7 +41,7 @@ EDA means exploring the dataset or conducting a deep dive into the data, ton und
       - Highest COVID 19 infections vs population
       - Highest tests vs population
       - Highest positive yield vs tests conducted
-      - Highest/ strictes Stringency Index
+      - Highest/ strictest Stringency Index
    
    
         
