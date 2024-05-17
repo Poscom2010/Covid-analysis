@@ -118,6 +118,32 @@ SELECT
 ```
 
 ## Results/ Findngs
+Now afetr all the data cleaning, manipulation and analysis, it is time to see what the data says right! Answering the analysis questions of interest. In order to do justice to all questions, i will go through each question and elaborate on the story from the data with reference to the Covid 19 Africa Data Analysis dashboard below.
+
+![CR19 Dashboard](https://github.com/Poscom2010/Covid-analysis/assets/112340892/70dcce47-5083-49ad-bd40-3a30aab1d617)
+
+
+# 1. Which are top 10 Afriacan countries that had *Highest COVID 19 infections in relation  population*
+
+
+
+
+
+
+
+
+      - Highest tests vs population
+      - Highest positive yield vs tests conducted
+      - Highest/ strictest Stringency Index
+  
+      - 
+
+
+
+
+
+
+
 
 ## Recommendations
 
