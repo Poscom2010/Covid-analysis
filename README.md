@@ -127,16 +127,17 @@ Now afetr all the data cleaning, manipulation and analysis, it is time to see wh
 
 
 # 1. Give an overal picture or perspective on the effects of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist*
- As seen on the dashboard above, based on the data availabe at the {our world our data] during that time, Africa had a total population of # 1.38 billion.*A 0.81% of its population was ifected by COVID19, which translates to about 11.31million people.Therefore, in Africa the population had > 1% chances of getting infected.However, those who got infected had a 2.14% of dieying due to COVID 19 infection. In total, about 241k people lost their lives dueto COVID 19 infection.
+ As seen on the dashboard above, based on the data availabe at the {our world our data] during that time, Africa had a total population of # 1.38 billion.*A 0.81% of its population was ifected by COVID19, which translates to about 11.31million people.Therefore, in Africa the population had > 1% chances of getting infected.However, those who got infected had a 2.14% chances of dieing due to COVID 19 infection. In total, about 241k people lost their lives due to COVID 19 infection.
+
+ On a country level, one country that had chances of dieng after being infected by COVID 19 was Sudan with 7.8%,Somalia****,Egypt *** respectively. One can also note that whilst Sudan had the highest chances of dieng due to COVID 19, THE SAME COUNTRY WAS AT NUMBER 15th in terms of vaccination rates (Population vs number vaccinated).
  So the question arises, since we have more than 50 countries in the continent, how did Africa coped at a country level. Which countries were seriously amputated and and which ones dod well to avert th scorge of COVID 19? Next, these are some of the questions that were addressed in this analysis project.
 
 
-# 2. Which are the top 10 countries that had *Highest COVID 19 infections in relation  to population*
+# 2. Which are the top 11 countries that had *Highest COVID 19 infections in relation  to population*
+Among the top 10 countries, South Africa  is number one country that had the highest COVID 19 infections in Africa in relation to her population followed by Tunisia, and Egypt, Libya, Ethopia.Even though it is well known, that Nigeria is the labor horsepower in Africa with the highest population in the continent, in sharp contrast, when it comes to  to COVID 19 infections, the country was on number 11th with about 267k infections.
 
-
-
-      - Highest COVID 19 infections vs population
-       - Highest tests vs population
+ - Highest tests vs population
+   
       - Highest positive yield vs tests conducted
       - Highest/ strictest Stringency Index
   
