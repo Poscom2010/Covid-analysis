@@ -36,8 +36,12 @@ CHANGE COLUMN `ï»¿location`  `location` VARCHAR (50);
 ```
 
 # Exploratory Data Analysis (EDA)
-EDA means exploring the dataset or conducting a deep dive into the data, ton understand the data structure, characteristics of the data and identify issues that might need to be corrected. Above all, EDA assists in understanding the quirks and innuendos of the data.The main purpose of this activity was to asnwer the bussines questions as follows:
- 1. Which are top 10 countries of the 54 in Africa had:
+EDA means exploring the dataset or conducting a deep dive into the data, to understand the data structure, characteristics of the data and identify issues that might need to be corrected. Above all, EDA assists in understanding the quirks and innuendos of the data.The main purpose of this activity was to answer the bussiness questions as follows:
+
+ 1. Give an overal picture or perspective on the effcts of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist.
+
+    
+ 2. Which are top 10 countries of the 54 in Africa had:
       - Highest COVID 19 infections vs population
       - Highest tests vs population
       - Highest positive yield vs tests conducted
@@ -57,8 +61,7 @@ EDA means exploring the dataset or conducting a deep dive into the data, ton und
 
    6. Any correlation between GDP and vaccination
    7. Any correlation between Stringency index and the total cases - in other words, did the strict rules implemented worked din countries where they were strict or they all perfomed the same just like countries that        had  relaxed regulations
-   8. How bad was Africa as a whole in terms of new cases, vaccination and death rate - a graphical view would assist  
-   9. What was the likelihood or chances of dying in AFrica after being infected bt COVID 19
+
 
 ## Data Analysis
 To add some interesting codes used during the analysis and add some code chunks
@@ -123,20 +126,36 @@ Now afetr all the data cleaning, manipulation and analysis, it is time to see wh
 ![CR19 Dashboard](https://github.com/Poscom2010/Covid-analysis/assets/112340892/70dcce47-5083-49ad-bd40-3a30aab1d617)
 
 
-# 1. Which are top 10 Afriacan countries that had *Highest COVID 19 infections in relation  population*
+# 1. Give an overal picture or perspective on the effects of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist*
+ As seen on the dashboard above, based on the data availabe at the {our world our data] during that time, Africa had a total population of # 1.38 billion.*A 0.81% of its population was ifected by COVID19, which translates to about 11.31million people.Therefore, in Africa the population had > 1% chances of getting infected.However, those who got infected had a 2.14% of dieying due to COVID 19 infection. In total, about 241k people lost their lives dueto COVID 19 infection.
+ So the question arises, since we have more than 50 countries in the continent, how did Africa coped at a country level. Which countries were seriously amputated and and which ones dod well to avert th scorge of COVID 19? Next, these are some of the questions that were addressed in this analysis project.
+
+
+# 2. Which are the top 10 countries that had *Highest COVID 19 infections in relation  to population*
 
 
 
-
-
-
-
-
-      - Highest tests vs population
+      - Highest COVID 19 infections vs population
+       - Highest tests vs population
       - Highest positive yield vs tests conducted
       - Highest/ strictest Stringency Index
   
-      - 
+ 
+
+  3. Which are **the top 5 countries* that did well to avert the COVID 19 effects
+  4. Which are the **bottom 15 countries** which did not do well  
+          - having less tests vs population
+          - less vaccinations and few peopple fully vaccinated
+          
+  5.  Which are the **top 5 countries** seriously ravaged by COVID 19 with highest death rates
+         
+      Highest COVID 19 death rates
+      - Highest  19 vaccinations
+
+   6. Any correlation between GDP and vaccination
+   7. Any correlation between Stringency index and the total cases - in other words, did the strict rules implemented worked din countries where they were strict or they all perfomed the same just like countries that        had  relaxed regulations
+
+
 
 
 
