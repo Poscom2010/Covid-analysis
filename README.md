@@ -55,9 +55,7 @@ EDA means exploring the dataset or conducting a deep dive into the data, to unde
           - less vaccinations and few peopple fully vaccinated
           
   5.  Which are the **top 5 countries** seriously ravaged by COVID 19 with highest death rates
-         
-      Highest COVID 19 death rates
-      - Highest  19 vaccinations
+        
 
    6. Any correlation between GDP and vaccination
    7. Any correlation between Stringency index and the total cases - in other words, did the strict rules implemented worked din countries where they were strict or they all perfomed the same just like countries that        had  relaxed regulations
@@ -134,18 +132,20 @@ Now afetr all the data cleaning, manipulation and analysis, it is time to see wh
 
 
 #### 2. Which are the top 11 countries that had *Highest COVID 19 infections in relation  to population*
-Among the top 10 countries, South Africa  is number one country that had the highest COVID 19 infections in Africa in relation to her population. Second was  Tunisia, followed by  Egypt, Libya and  Ethopia.Even though it is well known, that Nigeria is the labor horsepower in Africa with the highest population in the continent, contrastingly, when it comes to  to COVID 19 infections, the country was on number 11th with about 267k infections.
- 
-  4. Which are the **bottom 15 countries** which did not do well  
-          - having less tests vs population
-          - less vaccinations and few peopple fully vaccinated
-          
-  5.  Which are the **top 5 countries** seriously ravaged by COVID 19 with highest death rates
-         
-      Highest COVID 19 death rates
-      - Highest  19 vaccinations
+Among the top 10 countries, South Africa  is number one country that had the highest COVID 19 infections in Africa in relation to her population. Second was  Tunisia, followed by  Egypt, Libya and  Ethopia.Even though it is well known, that Nigeria is the labor horsepower for Africa with the highest population in the continent, contrastingly, when it comes to  to COVID 19 infections, the country was on number 11th with about 267k infections.
+     
+  #### 3.  Which are the **top 5 countries** that managed well the COVID 19
+There are some countries that had few infections and deaths with high COVID 19 vaccinations.Though this project is not in a position to suggest that these fatalities were due to high vaccinations, what is certain is that there are also countries which had high infections, deaths and also vaccination. Egypty is one country which was ranked as 3rd on the dashboard in having highCOVID 19 burden,high chances of death and high deaths  and 3rd as well in terms total vaccination in relation to population.
+
+Nigeria as one country with highest population in Africa was nowhere to be seen near the top 10 countries with highest  fatalities. Ranked 10th in terms of infections and leading as a pace setter in terms of vaccinations.A total of 94 million people were vaccinated in Nigeria.However, Nigeria performed badly in terms of COVID 19 testing.Only 5 million people were tested from the 218m population, an area where South Frica excelled as seen on Fig 2 below. South Africa on the other hand, was leading in terms of infections, deaths but the ranked 6th in terms of vaccinations in relation to its total population.
+
+ ### 5.Which countries had   highest COVID 19 positivity yield
+ ![Screenshot (247)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/c4160b3c-9e6a-43b1-a589-56acfe35d4c4)
+
+        Though South Adrica had highest infections and deaths, it is the only African country that had COVID 19 tests bove 10 million.In fact, majority of tests in Africa were below 12 million as seen above.
 
    6. Any correlation between GDP and vaccination
+      
    7. Any correlation between Stringency index and the total cases - in other words, did the strict rules implemented worked din countries where they were strict or they all perfomed the same just like countries that        had  relaxed regulations
 
 
