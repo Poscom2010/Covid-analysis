@@ -123,14 +123,14 @@ SELECT
 ## Results/ Findngs
 Now afetr all the data cleaning, manipulation and analysis, it is time to see what the data says right! Answering the analysis questions of interest. In order to do justice to all questions, i will go through each question and elaborate on the story from the data with reference to the Covid 19 Africa Data Analysis dashboard below.
 
-![Screenshot (237)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/a849379a-613f-4eb0-b43a-3dc325a87685)
+![Screenshot (243)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/dfff51c8-f43a-4899-aecc-6d82eaba402b)
 
 
-# 1. Give an overal picture or perspective on the effects of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist*
+## 1. Give an overal picture or perspective on the effects of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist*
  As seen on the dashboard above, based on the data availabe at the {our world our data] during that time, Africa had a total population of # 1.38 billion.*A 0.81% of its population was ifected by COVID19, which translates to about 11.31million people.Therefore, in Africa the population had > 1% chances of getting infected.However, those who got infected had a 2.14% chances of dieing due to COVID 19 infection. In total, about 241k people lost their lives due to COVID 19 infection.
 
  On a country level, one country that had chances of dieng after being infected by COVID 19 was Sudan with 7.8%,Somalia****,Egypt *** respectively. One can also note that whilst Sudan had the highest chances of dieng due to COVID 19, THE SAME COUNTRY WAS AT NUMBER 15th in terms of vaccination rates (Population vs number vaccinated).
- So the question arises, since we have more than 50 countries in the continent, how did Africa coped at a country level. Which countries were seriously amputated and and which ones dod well to avert th scorge of COVID 19? Next, these are some of the questions that were addressed in this analysis project.
+ So the question arises, since we have more than 50 countries in the continent, how did Africa cope at a country level. Which countries were seriously amputated and and which ones dod well to avert th scorge of COVID 19? Next, these are some of the questions that were addressed in this analysis project.
 
 
 # 2. Which are the top 11 countries that had *Highest COVID 19 infections in relation  to population*
