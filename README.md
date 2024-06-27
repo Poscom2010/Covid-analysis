@@ -122,8 +122,9 @@ SELECT
 
 ## Results/ Findngs
 Now afetr all the data cleaning, manipulation and analysis, it is time to see what the data says right! Answering the analysis questions of interest. In order to do justice to all questions, i will go through each question and elaborate on the story from the data with reference to the Covid 19 Africa Data Analysis dashboard below.
+![Screenshot (243)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/2142ca1c-7f29-4370-8783-95675c40eef9)
 
-![Screenshot (243)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/dfff51c8-f43a-4899-aecc-6d82eaba402b)
+
 
 
 ## 1. Give an overal picture or perspective on the effects of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist*
