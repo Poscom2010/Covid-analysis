@@ -142,7 +142,9 @@ Nigeria as one country with highest population in Africa was nowhere to be seen 
  ### 5.Which countries had   highest COVID 19 positivity yield
  ![Screenshot (247)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/c4160b3c-9e6a-43b1-a589-56acfe35d4c4)
 
-        Though South Adrica had highest infections and deaths, it is the only African country that had COVID 19 tests bove 10 million.In fact, majority of tests in Africa were below 12 million as seen above.
+
+  Though South Adrica had highest infections and deaths, it is the only African country that had COVID 19 tests bove 10 million.In fact, majority of tests in Africa were below 12 million as seen above.
+      
 
    6. Any correlation between GDP and vaccination
       
