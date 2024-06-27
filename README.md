@@ -122,7 +122,8 @@ SELECT
 
 ## Results/ Findngs
 Now afetr all the data cleaning, manipulation and analysis, it is time to see what the data says right! Answering the analysis questions of interest. In order to do justice to all questions, i will go through each question and elaborate on the story from the data with reference to the Covid 19 Africa Data Analysis dashboard below.
-![Screenshot (243)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/2142ca1c-7f29-4370-8783-95675c40eef9)
+![covid](https://github.com/Poscom2010/Covid-analysis/assets/112340892/85b3610c-84b7-423e-b391-4da04005d754)
+
 
 
 
