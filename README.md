@@ -154,16 +154,14 @@ In order to answer this question,  number of people reported succumbing to COVID
 Between the period of Jan 2020 to May 2021,Africa witnessed a surge in covid 19 infections. In particular, in January 2021 a record high of  793.14 infections we recorded. During the same time that is when African countries started to prioritize vaccination and testing. As such, since deaths were going up, vaccinations started to increase signficantly.
 Therefore, from Jan 2021, a positive correlataion between increase in vaccinations and significant drop in covid 19 infections and deaths was witnessed.From Feb 2021 all countries were prioritizing vaccination and workplaces were also requesting vaccination certificates. The result was an increase in vaccinations and a drop in deaths and infections. Does this means vaccinations worked? Unfortunately, this question is beyond the scope of tis project.
       
- ###  7. Any correlation between Stringency index and the total cases - in other words, did the strict rules implemented worked din countries where they were strict or they all perfomed the same just like countries that        had  relaxed regulations
-
-
-
 
 ## Recommendations
 
+1. **Proactive vaccination than reactive** - from the data above, it is clear that Africa started to prioritize vaccinations and tests after September 2020 record highs in deaths and infections with full implementation from May 2021. Before this phase, deaths and infections were being reported, however the numbers did not raise enough alarm.It is therefore recommended for Africa to embrace any new pandemics and immediately implement preventative measures.
+2. 
+3. **Recording and reporting of data for future use** - the data in this project went through serious data cleaning. Some countries did not reliably report data. For instance, some countries stopped reporting COVID 19 data. This then  deprives the opportunity to use available data to understand the COVID 19 epidemic and make informed decision making in the future.
+   
 ## Limitations
+1.**Incomplete data**
+The dataset for the project was downloaded from ourworld website, which is a public database. The data set had data from 2019 to 2023. However, majority of the countries stopped reporting data or had missing values from 2022. This then forced the project to be limited to 2021 only.
 
-## References
-
-### Definition of terms
-Stringency Index  a composite measure  based on nine repsones indcators
