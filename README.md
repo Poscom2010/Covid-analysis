@@ -12,7 +12,7 @@ A triangulation of different data sources assisted in examining the COVID 19 in 
    
   1.  **Excel**  was used as initial cleaning of data and prepare the CSV file for easy importing to My SQL workbench.
   2.  **MySQL Workbench** - for further data cleaning, manipulation and analysis  
-  3. **Tablea** used for visualizations and creating report
+  3. **Tableau** used for visualizations and creating report
       
  ### Data Cleaning /Preparation
  1. ### Data Loading
@@ -158,10 +158,19 @@ Therefore, from Jan 2021, a positive correlataion between increase in vaccinatio
 ## Recommendations
 
 1. **Proactive vaccination than reactive** - from the data above, it is clear that Africa started to prioritize vaccinations and tests after September 2020 record highs in deaths and infections with full implementation from May 2021. Before this phase, deaths and infections were being reported, however the numbers did not raise enough alarm.It is therefore recommended for Africa to embrace any new pandemics and immediately implement preventative measures.
-2. 
-3. **Recording and reporting of data for future use** - the data in this project went through serious data cleaning. Some countries did not reliably report data. For instance, some countries stopped reporting COVID 19 data. This then  deprives the opportunity to use available data to understand the COVID 19 epidemic and make informed decision making in the future.
+    
+2. **Recording and reporting of data for future use** - the data in this project went through serious data cleaning. Some countries did not reliably report data. For instance, some countries stopped reporting COVID 19 data. This then  deprives the opportunity to use available data to understand the COVID 19 epidemic and make informed decision making in the future.
    
 ## Limitations
 1.**Incomplete data**
-The dataset for the project was downloaded from ourworld website, which is a public database. The data set had data from 2019 to 2023. However, majority of the countries stopped reporting data or had missing values from 2022. This then forced the project to be limited to 2021 only.
+The dataset for the project was downloaded from ourworldindata website, which is a public database. The data set had data from 2019 to 2023. However, majority of the countries stopped reporting data or had missing values from 2022. This then forced the project to be limited to 2021 only.
+
+### References
+1. [Our World in Data for all] (https://ourworldindata.org/explorers/coronavirus-data-explorer)
+2. [Anshul Sharma from Kaggle] (https://www.kaggle.com/code/anshuls235/india-vs-covid19/input)
+
+👍
+💻 	
+🌍
+💡
 
