@@ -1,4 +1,4 @@
-# Covid 19  in Africa - analysis
+# Covid 19  in Africa - Analysis
 
 ## Project Overview 
 COVID 19 pandemic  caused havoc and instability in the world. Even the most developed countries were not spared from its wrath. The most developed countries which had better health health standerds had  even the highest infections and death rates. Looking at the after effects of COVID 19 in countries like US and Canada as well as China, which are countries well known to have the economic and political muscles to wrestle the pandemic, it then calls for a deep dive into the less developed. It is against this background that a deep dive into COVID 19 in Africa became a neccessity of this project.Even though the stingy of COVID 19 started to decline around the end of 2022, the data is up to December 2023 (2020-2023. This then gives an up to date analysis and presentation of the how covid 19 affected Africa and how African countries fared. Which countries were affected the most that others.
@@ -8,14 +8,15 @@ A triangulation of different data sources assisted in examining the COVID 19 in 
  1. [Our World in Data for all] (https://ourworldindata.org/explorers/coronavirus-data-explorer)
  2. [Anshul Sharma from Kaggle] (https://www.kaggle.com/code/anshuls235/india-vs-covid19/input)
 
- # Tools
+# Tools
    
   1.  **Excel**  was used as initial cleaning of data and prepare the CSV file for easy importing to My SQL workbench.
   2.  **MySQL Workbench** - for further data cleaning, manipulation and analysis  
   3. **Tableau** used for visualizations and creating report
       
  ### Data Cleaning /Preparation
- 1. ### Data Loading
+ 
+1. ### Data Loading
 In order to be able to load the data successfully into the Mysql workbench, a database was created and the columns in the dataset and their data types were created first. But before, the date colum data was in a wrong format (dd/mm/yyyy) and was converted to SQL data format first  as (yyyy/mm/dd). This was a solution after several unsucessful attempts. The Mysql import table wizard was utilized and data was successfully imported into Mysql workbench.
   
 2. ### Handling missing values
@@ -38,27 +39,11 @@ CHANGE COLUMN `ï»¿location`  `location` VARCHAR (50);
 # Exploratory Data Analysis (EDA)
 EDA means exploring the dataset or conducting a deep dive into the data, to understand the data structure, characteristics of the data and identify issues that might need to be corrected. Above all, EDA assists in understanding the quirks and innuendos of the data.The main purpose of this activity was to answer the bussiness questions as follows:
 
- 1. Give an overal picture or perspective on the effcts of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist.
-
-    
- 2. Which are top 10 countries of the 54 in Africa had:
-      - Highest COVID 19 infections vs population
-      - Highest tests vs population
-      - Highest positive yield vs tests conducted
-      - Highest/ strictest Stringency Index
-   
-   
-        
-  3. Which are **the top 5 countries* that did well to avert the COVID 19 effects
-  4. Which are the **bottom 15 countries** which did not do well  
-          - having less tests vs population
-          - less vaccinations and few peopple fully vaccinated
-          
-  5.  Which are the **top 5 countries** seriously ravaged by COVID 19 with highest death rates
-        
-
-   6. Any correlation between GDP and vaccination
-   7. Any correlation between Stringency index and the total cases - in other words, did the strict rules implemented worked din countries where they were strict or they all perfomed the same just like countries that        had  relaxed regulations
+ 1. Give an overal picture or perspective on the effcts of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist.   
+2. Which  are the top 11 countries that had *Highest COVID 19 infections in relation  to population
+3. Which are the **top 5 countries** that managed well the COVID 19 pandemic
+4. Which countries had   highest COVID 19 positivity yield      
+5.  Any correlation between between overal deaths in Africa and  vaccination rate
 
 
 ## Data Analysis
@@ -139,14 +124,14 @@ There are some countries that had few infections and deaths with high COVID 19 v
 
 Nigeria as one country with highest population in Africa was nowhere to be seen near the top 10 countries with highest  fatalities. Ranked 10th in terms of infections and leading as a pace setter in terms of vaccinations.A total of 94 million people were vaccinated in Nigeria.However, Nigeria performed badly in terms of COVID 19 testing.Only 5 million people were tested from the 218m population, an area where South Frica excelled as seen on Fig 2 below. South Africa on the other hand, was leading in terms of infections, deaths but the ranked 6th in terms of vaccinations in relation to its total population.
 
- ### 5.Which countries had   highest COVID 19 positivity yield
+ ### 4.Which countries had   highest COVID 19 positivity yield
  ![Screenshot (247)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/c4160b3c-9e6a-43b1-a589-56acfe35d4c4)
 
 
   Though South Africa had highest infections and deaths, it is the only African country that had COVID 19 tests bove 10 million.In fact, majority of tests in Africa were below 12 million as seen above.
       
 
-### 6. Any correlation between between overal deaths in Africa and  vaccination rate
+### 5.Any correlation between between overal deaths in Africa and  vaccination rate
 In order to answer this question,  number of people reported succumbing to COVID 19 were plotted against time. Based on the findings from the data, Africa experience high deaths before the advent of vaccines.
 
 ![Screenshot (248)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/f482c8f7-3bd3-4c16-be55-f211ff76ff13)
