@@ -147,6 +147,12 @@ Nigeria as one country with highest population in Africa was nowhere to be seen 
       
 
 ### 6. Any correlation between between overal deaths in Africa and  vaccination rate
+In order to answer this question,  number of people reported succumbing to COVID 19 were plotted against time. Based on the findings from the data, Africa experience high deaths before the advent of vaccines.
+
+![Screenshot (248)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/f482c8f7-3bd3-4c16-be55-f211ff76ff13)
+
+Between the period of Jan 2020 to May 2021,Africa witnessed a surge in covid 19 infections. In particular, in January 2021 a record high of  793.14 infections we recorded. During the same time that is when African countries started to prioritize vaccination and testing. As such, since deaths were going up, vaccinations started to increase signficantly.
+Therefore, from Jan 2021, a positive correlataion between increase in vaccinations and significant drop in covid 19 infections and deaths was witnessed.From Feb 2021 all countries were prioritizing vaccination and workplaces were also requesting vaccination certificates. The result was an increase in vaccinations and a drop in deaths and infections. Does this means vaccinations worked? Unfortunately, this question is beyond the scope of tis project.
       
  ###  7. Any correlation between Stringency index and the total cases - in other words, did the strict rules implemented worked din countries where they were strict or they all perfomed the same just like countries that        had  relaxed regulations
 
