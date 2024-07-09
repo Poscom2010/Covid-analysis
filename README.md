@@ -132,7 +132,7 @@ Nigeria as one country with highest population in Africa, was nowhere to be seen
   Though South Africa had highest infections and deaths, it is the only African country that had COVID 19 tests above 10 million.In fact, majority of tests in Africa were below 12 million as seen above.
       
 
-### 5.Any correlation between between overal deaths in Africa and  vaccination rate
+### 5. Any correlation between between overal deaths in Africa and  vaccination rate
 In order to answer this question,  number of people reported succumbing to COVID 19 were plotted against time. Based on the findings from the data, Africa experienced high deaths before the advent of vaccines.
 
 ![Screenshot (248)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/f482c8f7-3bd3-4c16-be55-f211ff76ff13)
