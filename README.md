@@ -1,7 +1,7 @@
-# Covid 19  in Africa - Analysis
+# Africa Covid 19  - Analysis
 
 ## Project Overview 
-COVID 19 pandemic  caused havoc and instability in the world. Even the most developed countries were not spared from its wrath. The most developed countries which had better health health standerds had  even the highest infections and death rates. Looking at the after effects of COVID 19 in countries like US and Canada as well as China, which are countries well known to have the economic and political muscles to wrestle the pandemic, it then calls for a deep dive into the less developed. It is against this background that a deep dive into COVID 19 in Africa became a neccessity of this project.Even though the stingy of COVID 19 started to decline around the end of 2022, the data is up to December 2023 (2020-2023. This then gives an up to date analysis and presentation of the how covid 19 affected Africa and how African countries fared. Which countries were affected the most that others.
+The COVID 19 was recorded in the books of history as one pandemic which caused an outcry, deaths and  serious economic instability in the world. Even the most developed countries were not spared from its wrath. The most developed countries despite having effective and efficient health systems, incurred serious losses wit highest infections and death rates. After reflecting on the effects of COVID 19 in countries like US and Canada as well as China, which are well known to have the economic and political muscles to wrestle the pandemic, one wonders, if the tide was strong enough to  overturn the big boats, how then did the developing countries managed? This then sparked an interest for a deep dive analysis of COVID 19 in Africa as a whole.It is against this background that this project became a neccessity.Even though the stingy of COVID 19 started to decline around the end of 2022, the data source or dataset had data from 2019 - 2023. However, there were serious gaps in countries reporting post 2022. As such, the project focus on the 2019-2022 period.  Critical questions were focused on interrogating and consulting the data on  how COVID 19 affected Africa and how African countries fared. Which countries were affected the most than others.
 
 # Data Sources
 A triangulation of different data sources assisted in examining the COVID 19 in Africa from different angles. Two main data sources were used as follows:  
@@ -17,14 +17,15 @@ A triangulation of different data sources assisted in examining the COVID 19 in 
  ### Data Cleaning /Preparation
  
 1. ### Data Loading
-In order to be able to load the data successfully into the Mysql workbench, a database was created and the columns in the dataset and their data types were created first. But before, the date colum data was in a wrong format (dd/mm/yyyy) and was converted to SQL data format first  as (yyyy/mm/dd). This was a solution after several unsucessful attempts. The Mysql import table wizard was utilized and data was successfully imported into Mysql workbench.
+In order to be able to load the data successfully into the Mysql workbench, a database was created and the columns in the dataset and their data types were created first. But before, the date column data was in a wrong format (dd/mm/yyyy) and was converted to SQL data format first  as (yyyy/mm/dd). This was a solution after several unsuccessful attempts. The Mysql import table wizard was utilized and data was successfully imported into Mysql workbench.
   
 2. ### Handling missing values
-The dataset had lots of intention blank spaces. As in, for instance, the new cases column was recording new cases as they are reported, whenre there were no cases, the cells were blank instead of having a 0. Therefore, this was handles easily in excel by replacing all blank with 0. This successfully removed the issues of having NULL values.
+The dataset had lots of  blank spaces (missing data). For instance, the new cases column was recording new cases as they are reported, when there were no cases, the cells were blank instead of having a 0. Therefore, this was handled easily in excel by replacing all blank with 0. This successfully removed the issues of having NULL values.
 
-3. ### Data cleaning and Formating
-After importing the data, all the data types were checked and confirmed to be in the required data type.There after, Data Manipulation began - where other erequired important colums were required in order to fully satisfy the business task.To confirm the data was imported in the designated or required format i used the DESCRIBE function. Also i realized the column location was spelled wrongly with some fun character ('ï»¿location'). This would make it difficult when calling the calumn during sql quiries. As such i had to change the column name to 'location'. As i was investigating the data, i noted a lot of anomalies, 58 countries instead of 54 with other new know partly Oversears departments but regarded as African  countries (Mayotte,Saint Helena and Reunion as overseas Departments of France near Madagascar).I then decided to clean or delete these records from the dataset and stick to the 54 African countries.
+3. ### Data Cleaning and Formating
+After importing the data, all the data types were checked and confirmed to be in the required data type.There after, data Manipulation began. To confirm if the  data was imported in the designated or required format i used the DESCRIBE function. Also i realized the column location was spelled wrongly with some fun character ('ï»¿location'). This would make it difficult when calling the calumn during sql queries. As such i had to change the column name to 'location'. As i was investigating the data, i noted a lot of anomalies.The dataset had a total of  58 countries instead of 54 with other new known partly Oversears departments being recorded as  standalone African  countries (Mayotte,Saint Helena and Reunion as overseas Departments of France near Madagascar).I then decided to clean or delete these records from the dataset and stick to the 54 African countries.
 
+## Below are some of the queries i depolyed during the data cleaning and formatting process
 
 ```
  Describing the data and examine the data types 
@@ -37,9 +38,9 @@ CHANGE COLUMN `ï»¿location`  `location` VARCHAR (50);
 ```
 
 # Exploratory Data Analysis (EDA)
-EDA means exploring the dataset or conducting a deep dive into the data, to understand the data structure, characteristics of the data and identify issues that might need to be corrected. Above all, EDA assists in understanding the quirks and innuendos of the data.The main purpose of this activity was to answer the bussiness questions as follows:
+EDA means exploring the dataset or conducting a deep dive into the data, to understand the data structure, characteristics and identify issues that might need to be corrected. Above all, EDA assists in understanding the quirks and innuendos of the data. Moreso, during EDA, one can as well be in the light to realize if there is enough data required or sufficient to answer the  researcg questions. The main purpose of this activity was to answer the folloing bussines questions:
 
- 1. Give an overal picture or perspective on the effcts of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist.   
+1. Give an overal picture or perspective on the effcts of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID 19, that is in terms of new cases, vaccination and death rates.   
 2. Which  are the top 11 countries that had *Highest COVID 19 infections in relation  to population
 3. Which are the **top 5 countries** that managed well the COVID 19 pandemic
 4. Which countries had   highest COVID 19 positivity yield      
@@ -47,10 +48,10 @@ EDA means exploring the dataset or conducting a deep dive into the data, to unde
 
 
 ## Data Analysis
-To add some interesting codes used during the analysis and add some code chunks
+During the analysis and exploration phase, different techniques were used with simple and complex sql queries. Below are some of the queries used and the purpose of the query.
 
+### extracting global numbers from the dataset
 ```
--- extracting global numbers from the dataset
 SELECT
 SUM(DISTINCT population) total_population,
 SUM(new_cases) total_infections,
@@ -109,9 +110,9 @@ Now afetr all the data cleaning, manipulation and analysis, it is time to see wh
 
 
 #### 1. Give an overal picture or perspective on the effects of COVID 19 in Africa. In other words, how badly was Africa ravaged by COVID19, that is in terms of new cases, vaccination and death rates - a graphical view would assist*
- As seen on the dashboard above, based on the data availabe at the {our world our data] during that time, Africa had a total population of # 1.38 billion.*A 0.81% of its population was ifected by COVID19, which translates to about 11.31million people.Therefore, in Africa the population had > 1% chances of getting infected.However, those who got infected had a 2.14% chances of dieing due to COVID 19 infection. In total, about 241k people lost their lives due to COVID 19 infection.
+ As seen on the dashboard above, based on the data availabe at the {our world our data] during that time, Africa had a total population of # 1.38 billion.*A 0.81% of its population was ifected by COVID 19, which translates to about 11.31 million people.Therefore, in Africa had > 1% chances of getting infected i.e less chances of being infected. However, those who got infected had a 2.14% chances of dieing due to COVID 19 infection. In total, about 242k people lost their lives due to COVID 19 infection.In terms of vaccinations, about 531 million people were vaccinated, that is 439.2 million were fully vaccinated and 91.2m only recieved single dose vaccinnation.
 
- On a country level,  top 3  countries that had highest chances of death after one has been infected by COVID 19 was Sudan at 7.89%, Somalia 4.95% and Egypt at 4.81% respectively. One can also note that whilst Sudan had the highest chances of death due to COVID 19, THE SAME COUNTRY WAS AT NUMBER 9th in terms of vaccination rates (Population vs number vaccinated).
+ On a country level,  top 3  countries that had highest chances of death after one had been infected by COVID 19 was Sudan at 7.89%, Somalia 4.95% and followed by Egypt at 4.81% respectively. One can also note that whilst Sudan had the highest chances of death due to COVID 19, THE SAME COUNTRY WAS AT NUMBER 9th in terms of vaccination rates (Population vs number vaccinated).
  
  So the question arises, since we have more than 50 countries in the continent, how did Africa cope at a country level. Which countries were seriously amputated and which ones did well to manage the  scorge of COVID 19? Next, these are some of the questions that were addressed in this analysis project.
 
@@ -122,22 +123,22 @@ Among the top 10 countries, South Africa  is number one country that had the hig
   #### 3.  Which are the **top 5 countries** that managed well the COVID 19
 There are some countries that had few infections and deaths with high COVID 19 vaccinations.Though this project is not in a position to suggest that these fatalities were due to high vaccinations, what is certain is that there are also countries which had high infections, deaths and also vaccination. Egypty is one country which was ranked as 3rd on the dashboard in having highCOVID 19 burden,high chances of death and high deaths  and 3rd as well in terms total vaccination in relation to population.
 
-Nigeria as one country with highest population in Africa was nowhere to be seen near the top 10 countries with highest  fatalities. Ranked 10th in terms of infections and leading as a pace setter in terms of vaccinations.A total of 94 million people were vaccinated in Nigeria.However, Nigeria performed badly in terms of COVID 19 testing.Only 5 million people were tested from the 218m population, an area where South Frica excelled as seen on Fig 2 below. South Africa on the other hand, was leading in terms of infections, deaths but the ranked 6th in terms of vaccinations in relation to its total population.
+Nigeria as one country with highest population in Africa, was nowhere to be seen near the top 10 countries with highest  fatalities. Ranked 10th in terms of infections and leading as a pace setter in terms of vaccinations. A total of 94 million people were vaccinated in Nigeria. However, Nigeria performed badly in terms of COVID 19 testing. Only 5 million people were tested from the 218m population, an area where South Africa excelled as seen on Fig 2 below. South Africa on the other hand, was leading in terms of infections, deaths but then ranked 6th in terms of vaccinations in relation to its total population.
 
- ### 4.Which countries had   highest COVID 19 positivity yield
+ ### 4. Which countries had   highest COVID 19 positivity yield
  ![Screenshot (247)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/c4160b3c-9e6a-43b1-a589-56acfe35d4c4)
 
 
-  Though South Africa had highest infections and deaths, it is the only African country that had COVID 19 tests bove 10 million.In fact, majority of tests in Africa were below 12 million as seen above.
+  Though South Africa had highest infections and deaths, it is the only African country that had COVID 19 tests above 10 million.In fact, majority of tests in Africa were below 12 million as seen above.
       
 
 ### 5.Any correlation between between overal deaths in Africa and  vaccination rate
-In order to answer this question,  number of people reported succumbing to COVID 19 were plotted against time. Based on the findings from the data, Africa experience high deaths before the advent of vaccines.
+In order to answer this question,  number of people reported succumbing to COVID 19 were plotted against time. Based on the findings from the data, Africa experienced high deaths before the advent of vaccines.
 
 ![Screenshot (248)](https://github.com/Poscom2010/Covid-analysis/assets/112340892/f482c8f7-3bd3-4c16-be55-f211ff76ff13)
 
-Between the period of Jan 2020 to May 2021,Africa witnessed a surge in covid 19 infections. In particular, in January 2021 a record high of  793.14 infections we recorded. During the same time that is when African countries started to prioritize vaccination and testing. As such, since deaths were going up, vaccinations started to increase signficantly.
-Therefore, from Jan 2021, a positive correlataion between increase in vaccinations and significant drop in covid 19 infections and deaths was witnessed.From Feb 2021 all countries were prioritizing vaccination and workplaces were also requesting vaccination certificates. The result was an increase in vaccinations and a drop in deaths and infections. Does this means vaccinations worked? Unfortunately, this question is beyond the scope of tis project.
+Between the period of Jan 2020 to May 2021,Africa witnessed a surge in covid 19 infections. In particular, in January 2021 a record high of  793.14k infections we recorded. During the same time that is when African countries started to prioritize vaccination and testing. As such, since deaths were going up, vaccinations started to increase signficantly.
+Therefore, from Jan 2021, a positive correlation between increase in vaccinations and significant drop in covid 19 infections and deaths was witnessed.From Feb 2021 all countries were prioritizing vaccination and workplaces were also requesting vaccination certificates. The result was an increase in vaccinations and a drop in deaths and infections. Does this then means vaccinations worked? Unfortunately, this question was beyond the scope of this project.
       
 
 ## Recommendations
